@@ -59,9 +59,81 @@
             </li>
           </ul>
         </address>
+
+        <!-- //////////////// MOBILE MENU ////////////// -->
+        <!-- //////////////             ///////////////// -->
+
+        <button class="burger-btn" type="button">
+          <svg class="burger-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-burger"></use>
+          </svg>
+        </button>
+      </div>
+      <div class="mobile-menu">
+        <div class="container mobile-menu-container">
+          <!-- <button class="mobile-menu-close" type="button">
+            <svg class="modal-close-icon" height="8" width="8">
+              <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+          </button> -->
+
+          <button class="mobile-menu-close">CLOSE</button>
+          <nav class="mobile-menu-nav">
+            <div>
+              <p class="mobile-menu-nav-paragraf-studio">Studio</p>
+              <p class="mobile-menu-nav-paragraf">Portfolio</p>
+              <p class="mobile-menu-nav-paragraf">Contacts</p>
+            </div>
+          </nav>
+          <adress class="mobile-menu-adress">
+            <ul class="contacts-list">
+              <li class="contacts-item">
+                <a class="contacts-link" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="contacts-item">
+                <a class="contacts-link" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </adress>
+          <div class="mobile-menu-soc-link">
+            <ul class="mobile-menu-social-networks-list">
+              <li class="social-networks-list-size">
+                <a class="social-networks-list-link" href="">
+                  <svg class="icon" height="16" width="16">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-networks-list-size">
+                <a class="social-networks-list-link" href="">
+                  <svg class="icon" height="16" width="16">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-networks-list-size">
+                <a class="social-networks-list-link" href="">
+                  <svg class="icon" height="16" width="16">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-networks-list-size">
+                <a class="social-networks-list-link" href="">
+                  <svg class="icon" height="16" width="16">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </header>
-    <!-- </div> -->
 
     <main>
       <!-- ////////////////////////////////////////-->
@@ -93,7 +165,7 @@
                   <use href="./images/icons.svg#icon-antenna"></use>
                 </svg>
               </div>
-              <h3 class="title-three">Strategy</h3>
+              <h3 class="title-three-advantages">Strategy</h3>
               <p class="advantages-p">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
@@ -105,7 +177,7 @@
                   <use href="./images/icons.svg#icon-clock"></use>
                 </svg>
               </div>
-              <h3 class="title-three">Punctuality</h3>
+              <h3 class="title-three-advantages">Punctuality</h3>
               <p class="advantages-p">
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
@@ -117,7 +189,7 @@
                   <use href="./images/icons.svg#icon-diagram"></use>
                 </svg>
               </div>
-              <h3 class="title-three">Diligence</h3>
+              <h3 class="title-three-advantages">Diligence</h3>
               <p class="advantages-p">
                 Research and confirm brands with the strongest digital growth
                 opportunities and minimize risk.
@@ -129,7 +201,7 @@
                   <use href="./images/icons.svg#icon-astronaut"></use>
                 </svg>
               </div>
-              <h3 class="title-three">Technologies</h3>
+              <h3 class="title-three-advantages">Technologies</h3>
               <p class="advantages-p">
                 Design practice focused on digital experiences. We bring forth a
                 deep passion for problem-solving.
@@ -142,10 +214,6 @@
       <!-- ///////////////////////////////////// -->
       <!--3- SECTION OUR TEAM -->
       <!-- ///////////////////////////////////// -->
-
-      <!-- <svg style="fill: red" class="" width="18" height="24">
-        <use href="./images/icons.svg#icon-email"></use>
-      </svg> -->
 
       <section class="section-our-team">
         <div class="container">
@@ -476,7 +544,7 @@
     <!-- /////////////////////////////////////////// -->
 
     <footer class="page-footer">
-      <div class="container add-class">
+      <div class="container">
         <div class="logo-and-paragraf">
           <a class="footer-logo" href="./index.html"
             >Web<span class="footer-logo-part">Studio</span></a
@@ -545,7 +613,7 @@
     <!-- ////////////                    /////////// -->
     <!-- //////////////// MODAL WINDOW ///////////// -->
     <!-- ////////////                   //////////// -->
-    <div class="backdrop">
+    <div class="backdrop hidden">
       <div class="modal">
         <button class="modal-close-button" type="button">
           <svg class="modal-close-icon" height="8" width="8">
